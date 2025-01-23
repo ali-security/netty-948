@@ -25,6 +25,7 @@
   </parent>
 
   <artifactId>netty-common</artifactId>
+  <version>4.1.110.Final+sp1</version>
   <packaging>jar</packaging>
 
   <name>Netty/Common</name>

@@ -554,7 +554,7 @@
       <id>boringssl-snapshot</id>
       <properties>
         <tcnative.artifactId>netty-tcnative-boringssl-static</tcnative.artifactId>
-        <tcnative.version>2.0.66.Final-SNAPSHOT</tcnative.version>
+        <tcnative.version>2.0.66.Final</tcnative.version>
         <tcnative.classifier>${os.detected.classifier}</tcnative.classifier>
       </properties>
     </profile>
@@ -767,7 +767,7 @@
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>netty-dev-tools</artifactId>
-        <version>${project.version}</version>
+        <version>4.1.110.Final</version>
       </dependency>
 
       <!-- Needed for java11 and later as javax.activation is not part of the JDK anymore -->
@@ -2113,7 +2113,7 @@
           <version>1.5</version>
           <configuration>
             <resourceBundles>
-              <resourceBundle>io.netty:netty-dev-tools:${project.version}</resourceBundle>
+              <resourceBundle>io.netty:netty-dev-tools:4.1.110.Final</resourceBundle>
             </resourceBundles>
             <outputDirectory>${netty.dev.tools.directory}</outputDirectory>
             <!-- don't include netty-dev-tools in artifacts -->
